@@ -15,13 +15,53 @@
 
 .App-header {
   background-color: #282c34;
+  padding-top: 30px;
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.tasks-box {
+  /* background-color: royablu; */
+  border: 1px #61dafb solid;
+  margin: 10vh 50vh;
+  color: #282c34;
+}
+
+.tasks {
+  padding: 2vh;
+  background-color: whitesmoke;
+  margin: 3vh;
+  padding-left: 4vh;
+  text-align: left;
+}
+
+.tasks:hover {
+  text-align: center;
+  height: fit-content;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.tasks:hover > .dis{
+  padding: 3vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  display: block;
+}
+
+.remove {
+ height: 4vmin;
+ float: right;
+ cursor: pointer;
+}
+
+.dis{
+  display: none;
 }
 
 .App-link {
